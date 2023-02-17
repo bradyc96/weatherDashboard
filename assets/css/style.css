@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+
+header h1 {
+    margin-left: 50%;
+    color: white;
+    background-color: rgb(42, 42, 155);
+
+}
+ 
+.header {
+    min-height: 6vh;
+    background-color: rgb(42, 42, 155);
+}
+
+input {
+    text-align: center;
+}
+
+.searchRow {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+input[type="text"] {
+    height: 35px;
+    width: 275px;
+    font-family: bold;
+    
+}
+
+input[type="submit"] {
+    height: 35px;
+    width: 75px;
+    background-color: rgb(35, 118, 196);
+    color: white;
+    font-family: bold;
+}
+
+.weatherBox {
+    text-align: left;
+    margin-left: 30%;
+}
+
+#card {
+    background: rgb(238, 251, 255);
+    height: 35vh;
+    min-width: 60%;
+    border-radius: 15px;
+    box-shadow: 0 0 4px;
+    margin-right: 10rem;
+    margin-bottom: 8rem;
+    position: fixed;
+}
